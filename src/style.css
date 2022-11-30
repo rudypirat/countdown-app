@@ -1,19 +1,28 @@
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
+  text-align: center;
 }
 
 .coming-soon {
-  min-height: 100vh;
-  display: flex;
+  display: block;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  background: #614367;
+  max-width: 500px;
 }
 
 .countdown {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
 }
 
